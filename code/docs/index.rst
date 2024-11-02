@@ -6,7 +6,11 @@
 Basic ICMP Documentation
 ========================
 
-Please add your names and group ID here by editing `index.rst` in the docs folder.
+Group #3
+
+Akbar Tokochev 2548147
+
+Amirmohammad Erfan 2546794
 
 
 .. toctree::

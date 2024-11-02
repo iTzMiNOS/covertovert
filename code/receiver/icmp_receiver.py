@@ -1,3 +1,11 @@
-import scapy
+import scapy.all as scapy
 
-# Implement your ICMP receiver here
+
+def packet_handler(packet):
+    if packet[scapy.IP].ttl == 1:
+        packet.show()
+        exit()
+
+
+if __name__ == "__main__":
+    scapy.sniff(filter="icmp", prn=packet_handler)
